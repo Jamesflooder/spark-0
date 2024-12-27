@@ -1,0 +1,84 @@
+body{
+    font-size: 110%;
+    background-image: url(icon.jpg);
+    background-repeat:no-repeat;
+    min-height: 80vh;
+    min-width: 100vw;
+
+    background-size: cover;
+    color :rgb(7, 7, 8)
+}
+section:nth-child(1){
+    background-color: rgba(5, 238, 238,0.4);
+    justify-content: left;
+    margin: 5vw;
+    margin-top: 9vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    height: 50Vw;
+    border-radius: 7vw;
+    width: 50%;
+    padding: -5Vw;
+    
+
+}
+section:nth-child(1) h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 8vw;
+    overflow: hidden;
+    margin-top: -8vw;
+
+}
+input, label{
+    border-radius: 13PX ;
+    border: rgb(14, 0, 139);
+    size: 5vw;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+
+
+
+}
+pre{
+    font-size: 2.3vw;
+    margin-left: -8vw;
+    margin-top: -6vw;
+}
+section:first-child img{
+    width: 30%;
+    margin-top:0.8Vw ;
+    text-align: center;
+    justify-content: center;
+    margin-left: 17vw;
+    border-radius: 100PX;
+}
+a{
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    margin-bottom: -40px;
+    background-color: blue;
+    border-radius: 10vw;
+    background-size: cover;
+    margin: 5vw;
+    padding: 2%;
+    width: 20vw;
+    color: black;
+
+}
+
+button:hover{
+    background-image: linear-gradient(30deg, blue ,yellow ,red  );
+    background-size: cover;
+}
+
+

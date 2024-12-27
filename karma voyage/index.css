@@ -1,0 +1,206 @@
+nav{
+    display: flex;
+    width: 80%;
+    background-color: transparent;
+    position: fixed;
+    font-size: 2.4vw;
+    margin-left: 5vw;
+    justify-content: center;
+    height: 25vH;
+}
+.navbar ul{
+    font-size: large;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vw;
+}
+.navbar2 ul{
+    display: none;
+    font-size: large;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 7vw;
+    color: blue;
+}
+nav li{
+    margin: 2.4vw;
+    color: blue;
+}
+nav h1{
+    display: flex;
+    color: blue;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+nav h1 p{
+    margin-top: -0vw;
+    color:orange;
+}
+#acceuil{
+    font-size: 6vw;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+    background-image: url(image/24.6\ main.jpg);
+    align-items: center;
+    align-content: center;
+    height: 180%;
+
+}
+#acceuil button{
+    width: 100px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: orange;
+    box-shadow: 2Px , 3Px, 30px;
+    transition: 0.9s ease-in-out;
+    position: relative;margin-bottom: 18vw;
+}
+#acceuil button:hover,#circuit button:hover, #contact button:hover{
+    background-color: aqua;
+}
+#destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+}
+#destination img{
+    width: 100px;
+}
+#destination div{
+    text-align: center;
+    width: 40vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#circuit div:first-child{
+    background-image: url(image/24.4\ article-image-1.jpg);
+    border-radius: 30px;
+    width: 35%;
+    height: 55%;
+    background-size: cover;
+
+}
+#circuit div:last-child{
+    background-image: url(image/24.5\ article-image-2.jpg);
+    border-radius: 30px;
+    width: 35%;
+    height: 55%;
+    background-size: cover;
+
+}
+#circuit{
+    background-color: rgb(80, 78, 78,0.2);
+    margin: -0.2vw;
+    text-align: center;
+    height: 49vh;
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    place-items: center;
+
+}
+#circuit article:first-child{
+    margin-right: 4vw;
+    width:40%;
+    background-color: rgb(13, 252, 252,0.7);
+    height: 120%;
+    border-radius: 30px;
+    margin-top: -1.4vw;
+}
+
+#circuit button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    transition: 0.7s ease-in-out;
+}
+
+#contact{
+    color: rgb(31, 30, 30);
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    display: grid;
+    justify-content: center;
+    margin-left:15% ;
+}
+#contact div{
+    display: flex;
+    align-items: center;
+    
+    text-align: center;
+    justify-content: space-around;
+    width: 40%;
+
+}
+#contact input{
+    width: 20vw;
+    border-radius: 20px;
+    height: 7vh;
+    border-color: rgb(51, 48, 48);
+}
+#contact button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+    background-color: orange;
+}
+#destination img:hover{
+    box-shadow: 13px;
+}
+@media (max-width : 760px){
+   .navbar{
+        display: none;
+    }
+   .navbar2 ul{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(5deg, blue, yellow, red);
+        border-radius: 30px;
+
+    }
+    #destination img:hover{
+
+    }
+    #destination{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20vw;
+        height: 79vh;
+    }
+    #acceuil{
+        background-color: blue;
+    }
+    #circuit{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+    }
+    #destination div{
+        justify-content: space-around;
+        width: 110%;
+
+    }
+    #circuit article{
+        justify-content: space-around;
+        margin:10vw;
+    };
+    
+}

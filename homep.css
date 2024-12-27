@@ -1,0 +1,50 @@
+nav{
+    overflow: hidden;
+    display: flex;
+    background-image: linear-gradient(10deg, blue, aqua);
+    background-size: cover;
+
+}
+nav img{
+    width: 10%;
+    border-radius: 2vw;
+}
+nav div:nth-child(2) ul li{
+    background-color: rgb(12, 119, 161);
+    border-radius: 1vw;
+    color: crimson;
+    width: 110%;
+    transition: 5s ease-in-out;
+    text-align: center;
+    margin: 2vw;
+    
+}
+nav div:nth-child(2) ul{
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    align-content: flex-end;
+    margin: 3%;
+    justify-content: right;
+
+
+}
+nav div:nth-child(2) ul a{
+    text-decoration: none;
+
+}
+nav div:nth-child(2) ul li:hover{
+    width: 113%;
+    height: 101%;
+    background-color: deepskyblue;
+    background-image: linear-gradient(green, blue);
+
+
+}
+.tabcontent{
+    display: none;
+}
+.tabcontent:nth-child(1){
+    display:block;
+}
+
